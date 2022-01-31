@@ -1,0 +1,61 @@
+.customer-says {
+    width: 100%;
+    text-align: center;
+}
+.customer-says h1{
+    padding-top: 70px;
+    font-size: xx-large;
+}
+.customer-div {
+    width: 70%;
+    margin:  0 auto;
+    
+}
+
+.customer-div .googlereviews{
+    justify-content: center;
+    margin: 30px auto; 
+    display: flex;
+   
+}
+
+.gbox19{
+    margin-right: 10px;
+    display: inline;
+
+   
+}
+.gbox29{
+   
+    display: inline;
+
+   
+}
+
+
+.gbox49{
+   
+    display: inline;
+   
+  
+}
+.gbox59{
+  
+    display: inline;
+   
+   
+}
+
+.customer-says .review-slider{
+    width: 90%;
+    margin:  10px auto;
+    height: 300px;
+    background-color: orangered;
+}
+
+@media screen and (max-width: 720px){
+    .customer-says h1{
+       
+        font-size: 20px;
+    }
+}

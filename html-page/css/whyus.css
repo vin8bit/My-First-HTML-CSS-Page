@@ -1,0 +1,259 @@
+.whyus{
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.whyuscontainer{
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+    width: 70%;
+}
+.whyustext{
+    text-align: center;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.whyuscell1{
+    display: flex;
+    width: 100%;
+}
+.whyuscell2{
+    width: 50%;
+}
+.whyusbox{
+    width: 50%;
+    z-index: 6;
+}
+.whyusp1{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.pcolor{
+    color: #274F9E;
+}
+.pbold{
+    font-weight: bold;
+}
+
+.whyusp2, .whyusp3, .whyusp4{
+    margin-top: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+.whyusp2 .pcolor{
+    text-decoration: underline;
+}
+.whyusp3 .pcolor{
+    text-decoration: underline;
+}
+
+.whyuscircle{
+    margin: auto;
+    margin-top: 40px;
+    width: 310px;
+    height: 310px;
+    border: 2px dotted gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyuscircle2{
+
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cell1{
+    width: 130px;
+    height: 130px;
+    background-color: #dab18c;
+}
+.cell2{
+    width: 130px;
+    position: relative;
+    height: 130px;
+    top: -130px;
+    left: 130px;
+    background-color: #ce8aec;
+}
+.cell3{
+    width: 130px;
+    position: relative;
+    height: 130px;
+    top: -130px;
+    background-color: #9be495;
+}
+.cell4{
+    width: 130px;
+    position: relative;
+    height: 130px;
+    top: -260px;
+    left: 130px;
+    background-color: #9cd4e8;
+}
+
+.cellimg {
+  float: right;
+   margin-top: 30px;
+   margin-right: 15px;
+   width: 70px;
+   height: 70px;
+}
+ .cellname{
+    float: right;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: -70px;
+    width: 80px;
+    font-size: 9px;
+   
+
+ }
+
+ .cellimg2 {
+    float: left;
+     margin-top: 30px;
+     margin-left: 15px;
+     width: 70px;
+     height: 70px;
+  }
+   .cellname2{
+      float: left;
+      text-align: center;
+      margin-top: 100px;
+      margin-left: -70px;
+      width: 80px;
+      font-size: 9px;
+     
+  
+   }
+  
+   .cellimg3 {
+    float: right;
+     margin-top: 5px;
+     margin-right: 15px;
+     width: 70px;
+     height: 70px;
+  }
+   .cellname3{
+      float: right;
+      text-align: center;
+      margin-top: 80px;
+      margin-right: -70px;
+      width: 80px;
+      font-size: 9px;
+     
+  
+   }
+   .cellimg4 {
+    float: left;
+     margin-top: 5px;
+     margin-left: 15px;
+     width: 70px;
+     height: 70px;
+  }
+   .cellname4{
+      float: left;
+      text-align: center;
+      margin-top: 80px;
+      margin-left: -80px;
+      width: 80px;
+      font-size: 9px;
+     
+  
+   }
+  .cell2, .cell3, .cell4{
+       border: 1px solid white;
+   }
+
+   .whyusboxbanner{
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+}
+.banner2{
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+}
+.banner2circle{
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: #bbc9e6;
+}
+.banner2 h5{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 165px;
+    font-weight: normal;
+}
+
+.icon2 {
+     width: 100px;
+     height: 100px;
+  }
+.whyusbutton{
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: #274F9E;
+    border: 2px solid #274F9E;
+    display: block;
+    transition: 1s;
+}
+.whyusbutton:hover{
+    color: #274F9E;
+    background-color: white;
+}
+    @media screen and (max-width: 980px) {
+        .whyuscell1{
+            display: block;
+         }
+         .whyuscell2{
+            width: 100%;
+        }
+        .whyusbox{
+            width: 100%;
+        }
+        
+    }
+
+    @media screen and (max-width: 450px) {
+        .whyuscontainer p{
+            font-size: 13px;
+            
+        }
+        .whyuscircle{
+            width: 280px;
+            height: 280px;
+            margin-left: -20px;
+            
+        }
+        
+    }

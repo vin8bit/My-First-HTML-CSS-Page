@@ -1,0 +1,314 @@
+/*======== banner section ================*/
+
+.bannersection{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.bannerimage img{
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.textcon{
+    position: absolute;
+    top: 150px;
+    left: 7%;
+    z-index: 3;
+
+}
+.bannertext{
+    font-weight: bold;
+    font-size: 20px;
+    color: #274F9E;
+}
+.bannertext2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #274F9E;
+}
+.bannerbox{
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    -moz-box-shadow: 0 0 30px 2px  #274F9E;
+    -webkit-box-shadow: 0 0 30px 2px  #274F9E;
+    box-shadow: 0 0 30px 2px  #274F9E;
+    flex-direction: column;
+    position: absolute;
+    top: 230px;
+    left: 7%;
+    z-index: 2;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+}
+.bannerboxtrack{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+.boxh1{
+    display: block;
+    margin-top: 50px;
+    color:  black;
+}
+.boxh12{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    color:  black;
+    background-color: lightcoral;
+}
+.circlestep{
+    counter-reset: step;
+    margin-left: 11%;
+    padding-top: 5px;
+}
+.circlestep li{
+    list-style-type: none;
+    float: left;
+    width: 14%;
+    position: relative;
+    text-align: center;
+}
+.circlestep li:before{
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid  #274F9E;
+    display: block;
+    text-align: center; 
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+}
+.circlestep li:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: gray;
+    top: 15px;
+    left: -28px;
+    z-index: -1;
+}
+.circlestep li:first-child:after{
+    content: none;
+}
+.circlestep li.active{
+    
+    color: white;
+}
+.circlestep li.active:before{
+    border-color:  #274F9E;
+    background-color: #274F9E;;
+    
+}
+.circlestep li.active + li:after{
+    
+    background-color: #274F9E;
+}
+.trackbox{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+.trackbox {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 150px;
+  }
+
+ .boxup{
+    width: 100%;
+    height: 100%;
+     box-sizing: border-box;
+     padding-left: 2%;
+ } 
+.box {
+    
+    margin: auto;
+    position: relative;
+    margin-bottom: 7px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    border: 1px solid #274F9E;
+  }
+  .box img{
+      width: 80%;
+      height: 80%;
+
+  }
+  .box img{
+      margin-top: 14px;
+  }
+  .boxname{
+      color: grey;
+      font-size: small;
+      font-weight: bold;
+    
+  }
+  .abox{
+      font-weight: bold;
+      font-size: small;
+      color: #274F9E;
+  }
+  .box1{
+      background-color:#274F9E;
+  }
+  .boxbutton{
+      background-color: #274F9E;
+      text-transform: uppercase;
+      color: white;
+      border-radius: 10px;
+      width: 100px;
+      height: 40px;
+      margin-top: 15px;
+      transition: 400ms;
+  }
+  .boxbutton:hover{
+      background-color: white;
+      color:  #274F9E;
+      border: 2px solid  #274F9E;
+  }
+  .boxlink{
+      margin-top: 10px;
+      color:  gray;
+      font-size: 13px;
+      display: block;
+
+  }
+  .bannersection .googlereviews{
+      width: 400px;
+      margin-top: 0px;
+      position: relative;
+      margin-right: 100px;
+      float: right;
+      height: 80px;
+      z-index: 3;
+      
+  }
+.gbox1{
+    width: 50px;
+    position: absolute;
+    margin-top: 20px;
+    display: inline;
+
+   
+}
+.gbox2{
+    width: 50px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: inline;
+
+   
+}
+.gbox3{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size: 8px;
+    display: inline;
+   
+  
+}
+
+.gbox4{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 90px;
+    display: inline;
+   
+  
+}
+.gbox5{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 180px;
+    display: inline;
+   
+   
+}
+
+@media screen and (max-width: 980px) {
+    .bannerbox{
+        display: none;
+    }
+    .bannerimage img{
+        height: 400px;
+    }
+    .bannersection{
+ 
+        height: 500px;
+     
+    }
+    .textcon{
+        top: 150px;
+        width: 70%;
+
+    }
+    .bannertext{
+        font-weight: bold;
+        font-size: 30px; 
+        color: #274F9E;
+    }
+    .bannertext2{
+        text-align: justify;
+        width: 300px;
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #274F9E;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .bannerimage img{
+        height: 350px;
+    
+    }
+    .bannersection{
+ 
+        height: 450px;
+     
+    }
+    .googlereviews{
+        width: 80%;
+        margin-right: 10%;
+     
+    }
+  
+
+}
+
+
+@media screen and (max-width: 504px) { 
+.gbox2, .gbox5{
+    font-size: 10px;
+    }
+    .bannertext2{
+        width: 200px;
+        
+    } 
+    .bannersection .googlereviews{
+        width: 200px;
+    }
+}

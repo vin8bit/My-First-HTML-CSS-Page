@@ -1,0 +1,198 @@
+.pricing{
+    width: 100%;
+    
+    text-align: center;
+    background-color:#f9fdff;
+   
+}
+.pricing h1{
+    padding-top: 70px;
+    font-size: xx-large;
+}
+
+.pricing h4{
+    margin-top: 10px;
+    font-weight: normal;
+}
+.pricing_div{
+    width: 70%;
+    margin: 0 auto;
+}
+.pricing .pricing_div2{
+    display: flex;
+    padding: 49px;
+    
+}
+
+.pricing .pricing_div .price_box1 , .price_box2{
+    width: 50%;
+    margin: 20px 20px 20px auto;
+    border-radius: 10px;
+    z-index: 100;
+    overflow: hidden;
+    background-color: white;
+    -moz-box-shadow: 0 0 30px 2px  #274F9E;
+    -webkit-box-shadow: 0 0 30px 2px  #274F9E;
+    box-shadow: 0 0 30px 2px  #274F9E;
+    
+    
+
+}
+
+.pricing .pricing_div .price_line{
+    border: 7px solid #274F9E;
+    box-sizing: border-box;
+    z-index: 20;
+
+}
+.pricing .dotted_box_icon2{
+    display: block;
+    margin-top: -150px;
+    float: right;
+    position: relative;
+    z-index: sw;
+}
+
+.pricing_div2 img{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.pricing_div2 h2{
+    margin-top: 25px;
+}
+
+.pricing_div2 .h1-p{
+    margin-top: -40px;
+}
+
+.pricing_div2 .h1-p span{
+    font-weight: normal;
+    font-size: 24px;
+    color: gray;
+}
+.pricing_div2 h5{
+    margin-top: 10px;
+    font-weight: normal;
+    color: gray;
+}
+.pricing_div2 h3{
+    margin-top: 20px;
+    font-weight: normal;
+    color: gray;
+    margin-bottom: 35px;
+}
+
+.pricing .price-text{
+    width: 70%;
+    margin:  30px auto;
+    text-align: left;
+}
+.pricing .price-text h3{
+    margin-top: 20px;
+}
+.pricing ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .pricing ul li{
+      margin-top: 20px;
+  }
+  
+  .pricing  ul li:before {
+    content: "\2713\0020";
+    color: #274F9E;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+  }
+
+ .pricing .price-circle{
+     width: 70%;
+     margin:  0 auto;
+     display: inline-block;
+   
+ } 
+
+ .pricing .price-circle .box9{
+     width: 150px;
+    
+     display: inline-block;
+     box-sizing: border-box;
+     
+ }
+
+ .pricing .price-circle .box9 h5{
+     margin-top: 10px;
+    font-weight: normal;
+    
+}
+
+ .pricing .circle-image{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../images/google.png");
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+ }
+
+
+@media screen and (max-width: 768px){
+    .pricing .pricing_div2{
+        display: block;
+        
+        padding: 0;
+        
+    }
+    .pricing .price-circle{
+        width: 90%;
+    }
+
+    .pricing .pricing_div .price_box1 , .price_box2{
+        width: 100%;
+       
+        
+    
+    }
+
+    .pricing .dotted_box_icon2{
+        display: none;
+       
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .pricing_div2 img{
+        width: 80px;
+       
+    }
+    
+    .pricing_div2 h2{
+        font-size: 15px;
+    }
+    
+    .pricing_div2 h1{
+        font-size: 20px;
+    }
+    
+    .pricing_div2 h1 span{
+        
+        font-size: 15px;
+        
+    }
+
+    .pricing_div2 h3{
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 15px;
+        color: gray;
+        
+    }
+
+}

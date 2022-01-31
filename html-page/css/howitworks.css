@@ -1,0 +1,214 @@
+.dotted_box_icon {
+    width: 100%;
+    text-align: right;  
+}
+.dotted_box_icon img{
+    width: 80px;  
+}
+
+.howitworks{
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.howitworkscontainer{
+    align-items: center;
+    justify-content: center;
+    background-color:#f9fdff;
+    margin: 30px auto ;
+    width: 100%;
+    padding-top: 30px;
+  
+}
+.howitworkstext{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: xx-large;
+}
+.howmain{
+    width: 70%;
+    margin:  0 auto;
+    display: flex;
+   
+    text-align: center;
+   
+}
+
+.howmain .colunm1{
+    width: 33%;
+   
+
+}
+.howmain .colunm2{
+
+    width: 33%;
+   
+    display: flex;
+  
+
+}
+.howmain .colunm3{
+    
+    width: 33%;
+
+}
+
+
+.howcolumnbox1{
+    width: 90%;
+    margin-top: 60px;
+    padding: 5px;
+    border: 2px solid  orangered;
+    display: flex;
+    border-radius: 10px;
+}
+
+.howcolumnbox2{
+    width: 90%;
+    margin-top: 40px;
+    height: 120px;
+    border: 2px solid  purple;
+    display: flex;
+    border-radius: 10px;
+}
+
+.howcolumnbox3{
+    width: 90%;
+    margin-top: 380px;
+    height: 120px;
+    border: 2px solid  purple;
+    display: flex;
+    border-radius: 10px;
+}
+.howcolumnbox4{
+    width: 90%;
+    margin-top: 40px;
+    height: 120px;
+    border: 2px solid  green;
+    display: flex;
+    border-radius: 10px;
+}
+.howimg{
+    
+    width: 30%;
+}
+.howtext{
+    display: inline;
+    width: 70%;
+    float: right;
+   
+}
+
+.howtext h5{
+    font-size: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    float: left;
+}
+.howtext p{
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 11px;
+    float: left;
+}
+.howicon {
+    margin-left: -15px;
+    width: 100px;
+    height: 100px;
+ }
+
+
+ .howmain .colunm2 .circle_div{
+     width: 25%;
+    
+     margin-top: 100px;
+ }
+
+ .howmain .colunm2 .circle_div .image_div{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../images/google.png");
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+ }
+
+ .howmain .colunm2 .circle_div  .line_div{
+     width: 4px;
+     height: 130px;
+     margin: 0 auto;
+     background-color: gray;
+ }
+
+
+ .howmain .colunm2 .text_div{
+     
+    width: 80%;
+    display: block;
+    margin-top: 60px;
+    text-align: left;
+    padding: 10px;
+}
+
+.howmain .colunm2 .text_div h1{
+    font-size: 30px;
+    color: gray;
+
+}
+.howmain .colunm2 .text_div span{
+    font-weight: bold;
+}
+.howmain .colunm2 .text_div h3{
+    margin-top: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #274F9E;
+}
+
+.howmain .colunm2 .text_div p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    
+}
+
+ @media screen and (max-width: 1004px) {
+
+    .howmain{
+        display: block;
+    }
+    .howmain .colunm1{
+        width: 100%;
+        display: block;
+
+    }
+    .howmain .colunm2{
+        
+        width: 100%;
+
+    }
+
+
+    .howmain .colunm3{
+        width: 100%;
+        display: block;
+
+    }
+  
+    .howmain .colunm2 .circle_div  .line_div{
+     
+        height: 100px;
+    
+    }
+    .howcolumnbox3{
+       
+        margin-top: 40px;
+      
+    }
+ }
